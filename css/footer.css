@@ -1,0 +1,29 @@
+footer {
+    height: 180px;
+    padding-top: 32px;
+    text-align: center;
+}
+
+footer, a {
+    color: rgb(255, 229, 229);
+}
+
+.footer-informacoes {
+    width: 1020px;
+    margin: 0 auto 52px;
+}
+
+.fale-comigo {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1040px) {
+    footer {
+        padding: 16px 0 24px 0;
+    }
+    .footer-informacoes  {
+        width: 200px;
+    }
+}

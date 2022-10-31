@@ -1,0 +1,77 @@
+.menu-mobile {
+    width: 250px;
+    height: 400px;
+    background-image: linear-gradient(60deg,  rgb(32,10,41), rgb(153,48,139));
+    position: fixed;
+    top: 8px;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+}
+
+.display-menu {
+    display: none;
+}
+
+.icone-menu {
+    display: none;
+    position: absolute;    
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    transition: 0.3s opacity;
+}
+
+.icone-exit {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    transition: 0.3s opacity;
+}
+
+.icone-menu:hover, .icone-exit:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.nav-mobile {
+    position: relative;
+}
+
+.nav-mobile ul {
+    position: absolute;
+    top: 100px;
+    left: 48px;
+}
+
+.nav-mobile li {
+    margin-bottom: 16px;
+}
+
+.nav-mobile li::before {
+    content: "•";
+    color: rgb(255, 229, 229);
+}
+
+.nav-mobile a {
+    text-decoration: none; 
+    transition: 0.3s color;
+    margin-left: 8px;
+}
+
+.nav-mobile a:hover {
+    color: rgba(255, 229, 229, 0.5);
+}
+
+@media screen and (max-width:1040px) {
+    .icone-menu {
+        display: inherit;
+    }
+}
+
+@media screen and (min-width:1041px) {
+    .menu-mobile {
+        display: none;
+    }
+}

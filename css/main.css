@@ -1,0 +1,119 @@
+main {
+    background: #DBAFC2;
+    padding: 48px 0;
+    color: #992D6E;
+}
+
+main div {
+    width: 1020px;
+    margin: 0 auto;    
+}
+
+.sobre-mim {
+    position: relative;
+}
+
+.foto-sobre-mim {
+    width: 400px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 1px 1px 16px rgba(82, 4, 56, 0.2);
+}
+
+.texto-sobre-mim {
+    display: inline-block;
+    width: 480px;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    top: 48px;
+}
+
+.titulo {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 48px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.background-texto {
+    background-color: #350946;
+    box-shadow: 1px 1px 16px rgb(82 4 56 / 50%);
+    color: #E1EAEB;
+    font-weight: 500;
+    padding: 18px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 45%;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 100px;
+}
+
+.background-texto a {
+    color: rgb(255, 229, 229);
+}
+
+.margem-caixas {
+    margin: 2.3%;
+}
+
+.icones-interesses {
+    width: 80px;
+    transition: 0.7s transform;
+}
+
+.icones-interesses:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.display-informacoes-interesses {
+    display: none;
+}
+
+@media screen and (max-width:1040px) {
+    main {
+        padding: 16px 0;
+    }
+    main div {
+        width: 340px;
+        padding: 8px;
+    }
+
+    .foto-sobre-mim {
+        width: 100%;
+        opacity: 0.2;
+        position: relative;
+    }
+
+    .texto-sobre-mim {
+        display: block;
+        width: 300px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+
+    .titulo {
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    .background-texto {
+        font-size: 13px;
+        width: 100%;
+        height: 88px;
+    }
+
+    .margem-caixas {
+        margin: 0 0 2.3% 0;
+    }
+
+    .icones-interesses {
+        width: 60px;
+    }
+}

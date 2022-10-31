@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header-nav.css">
+    <link rel="stylesheet" href="css/nav-mobile.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="icones/favicon.png" width="100px" type="image/svg">
+    <title>Mirella Bagdadi | DEV</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                <li><a href="#formacao">FORMAÇÃO</a></li>
+                <li><a href="#experiencias">EXPERIÊNCIAS</a></li>
+                <li><a href="#habilidades">HABILIDADES</a></li>
+                <li><a href="#interesses">INTERESSES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img class="icone-menu" src="icones/menu-burger.svg" width="32px" height="40px">
+    
+    <div id="menu-mobile" class="menu-mobile display-menu">
+        <img id="menu-exit" class="icone-exit" src="icones/menu-exit.svg" height="32px" width="40px" >
+        <div class="nav-mobile">
+            <ul>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#formacao">formação</a></li>
+                <li><a href="#experiencias">experiências</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#interesses">interesses</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="pessoa">
+            <h1>Mirella Bagdadi</h1>
+            <h2>Desenvolvedora Back-End</h2>
+            
+            <div class="contato">
+                <img class="icones-informacoes" src="imagens/email.svg">
+                <p>mirellabagdadi@gmail.com</p>
+            </div>
+            
+            <div class="contato">
+                <img class="icones-informacoes" src="imagens/localidade.svg">
+                <p>Brasil</p>
+            </div>
+        </div>
+        
+        <div class="foto-perfil">
+            <img src="imagens/foto-perfil.svg" alt="foto Mirella sorrindo">
+        </div>
+
+        <div class="midias">
+            <a href="https://www.linkedin.com/in/mirellabs/" target="_blank"><img src="imagens/linkedin.svg"></a>
+            <a href="https://github.com/lissmirella" target="_blank"><img src="imagens/github.svg"></a>
+            <a href="https://wa.me/message/WZSUFUXJ427UJ1" target="_blank"><img src="imagens/whatsapp.svg"></a>
+        </div>
+        
+    </section>
+
+    <main>
+        <div class="sobre-mim" id="sobre-mim">
+            <img src="imagens/sobre-mim.svg" class="foto-sobre-mim margem-caixas">
+
+            <div class="texto-sobre-mim">
+                <h3 class="titulo">S O B R E_M I M</h3>
+                <p>Se achegue, fique a vontade! Meu nome é Mirella, mas pode me chamar também de Lis. Amo estudar e me desafiar em novos aprendizados. 
+                </p>
+            </div>
+        </div>
+
+        <div id="formacao">
+            <h3 class="titulo">F O R M A Ç Ã O<h3>
+            <p class="background-texto margem-caixas">Educação Física (Bacharelado e Licenciatura) - Universidade Estadual de Campinas (UNICAMP). 2006 a 2011.<br>
+            </p>
+            <p class="background-texto margem-caixas">Especialização em Eutonia - Instituto Sedes Sapientiae. 2011.<br>
+            </p>
+            <p class="background-texto margem-caixas">Análise e Desenvolvimento de Sistemas - UNESA (cursando 2º semestre).<br>
+            </p>
+            <p class="background-texto margem-caixas">Formações Alura - Certificados <a href="">aqui</a>.<br>
+            </p>
+        </div>
+
+        <div id="experiencias">
+            <h3 class="titulo">Experiências</h3>
+            <p class="background-texto margem-caixas">Apoiadora à inclusão, Coordenadora de Oficinas, Professora de projetos (incluindo programação) - 2017 a 2020.<br>
+            </p>
+            <p class="background-texto margem-caixas">Estagiária de desenvolvimento na Alura, no time Business Development - Atual.<br>
+            </p>
+        </div>
+        
+        <div id="habilidades">
+            <h3 class="titulo">Habilidades</h3>
+            <ul>
+                <li class="background-texto margem-caixas">HTML5 semântico, CSS3 avançado, Bootstrap, Figma, conceitos de UX e UI, JavaScript.</li>
+                <li class="background-texto margem-caixas">Arquitetura de computadores, comandos no terminal de Linux, Git e GitHub.</li>
+            </ul>
+        </div>
+
+        <div id="interesses">
+            <h3 class="titulo">Interesses</h3>
+            <img src="icones/mario.svg" class="icones-interesses" id="interesse-mario">
+            <img src="icones/series.svg" class="icones-interesses" id="interesse-serie">
+            <img src="icones/pokemon.png" class="icones-interesses" id="interesse-pokemon">
+            <img src="icones/aviao.png" class="icones-interesses" id="interesse-aviao">
+            <img src="icones/seagull.png" class="icones-interesses" id="interesse-passaro">
+        </div>
+
+        <div id="caixa-texto-interesses" class="display-informacoes-interesses">
+            <p id="texto-interesse" class="background-texto margem-caixas"></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-informacoes">
+            <img src="icones/contato.png" class="icones-informacoes">
+
+            <p class="fale-comigo">Fale comigo através do meu <a href="mailto:milena.emmert@alura.com.br">e-mail</a> ou <a href="https://www.convertte.com.br/gerador-link-whatsapp/" target="_blank">whatsapp</a>.</p>  
+        </div>
+        
+        <p>Milena Emmert<br>2022</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
