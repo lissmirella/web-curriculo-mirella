@@ -4,18 +4,19 @@ header {
     left: 0;
     right: 0;    
     background-color:rgb(32,10,41);
-    color: #0EB8CF;
+    color: #992D6E;
     z-index: 1;
 }
     
 nav {
     text-align: center;
     position: relative;
+    font-size: 18px;
 }
 
 nav li {
     display: inline-block;
-    margin: 16px 10px;
+    margin: 16px 14px;
 }
 
 nav li:not(:last-child):after {
@@ -25,8 +26,8 @@ nav li:not(:last-child):after {
 
 nav li a {
     text-decoration: none;
-    font-weight: 550;
-    color: #E7E2AE;
+    font-weight: 400;
+    color: #80B42C;
     transition: 0.3s color;
    }
 
@@ -35,7 +36,7 @@ nav li a:hover{
 }
 
 nav li a:active{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media screen and (max-width:1040px) {

@@ -1,7 +1,7 @@
 main {
-    background: #DBAFC2;
+    background: #80B42C;
     padding: 48px 0;
-    color: #992D6E;
+    color: #350946;
 }
 
 main div {
@@ -23,10 +23,12 @@ main div {
 .texto-sobre-mim {
     display: inline-block;
     width: 480px;
+    font-size: 20px;
+    font-weight: 400;
     vertical-align: top;
     position: absolute;
     right: 0;
-    top: 48px;
+    top: 5px;
 }
 
 .titulo {
@@ -35,13 +37,15 @@ main div {
     margin-top: 48px;
     text-align: center;
     font-size: 28px;
+    color: #350946;
 }
 
 .background-texto {
-    background-color: #350946;
+    background-color: #c4acc9;
     box-shadow: 1px 1px 16px rgb(82 4 56 / 50%);
-    color: #E1EAEB;
-    font-weight: 500;
+    color: #350946;
+    font-weight: 600;
+    font-size: 18px;
     padding: 18px;
     display: inline-block;
     border-radius: 8px;
@@ -59,12 +63,12 @@ main div {
     margin: 2.3%;
 }
 
-.icones-interesses {
-    width: 80px;
-    transition: 0.7s transform;
+.ferramentas {
+   width: 80px;
+   transition: 0.7s transform;
 }
 
-.icones-interesses:hover {
+.ferramentas:hover {
     cursor: pointer;
     transform: scale(1.2);
 }
